@@ -1,0 +1,96 @@
+{
+  "trainRoutes": [
+    {
+      "id": "train-ve-maradana-0545",
+      "route": "Veyangoda to Maradana",
+      "departure": "05:45",
+      "arrival": "06:48",
+      "fareLkr": 150,
+      "class": "2nd class",
+      "notes": "Low-cost morning commuter option with a straightforward connection to Colombo city buses."
+    },
+    {
+      "id": "train-ve-fort-0620",
+      "route": "Veyangoda to Colombo Fort",
+      "departure": "06:20",
+      "arrival": "07:22",
+      "fareLkr": 170,
+      "class": "2nd class",
+      "notes": "Best option for commuters connecting to buses at Pettah or Fort."
+    },
+    {
+      "id": "train-ve-maradana-1710",
+      "route": "Veyangoda to Maradana",
+      "departure": "17:10",
+      "arrival": "18:12",
+      "fareLkr": 170,
+      "class": "2nd class",
+      "notes": "Useful for evening travel back toward Colombo after office hours."
+    }
+  ],
+  "busRoutes": [
+    {
+      "routeNo": "138",
+      "name": "Pettah / Fort to Maharagama via Town Hall",
+      "majorStops": [
+        "Pettah",
+        "Fort Railway Station",
+        "Town Hall",
+        "Colombo 7",
+        "Nugegoda",
+        "Maharagama"
+      ],
+      "frequency": "Every 8 to 12 minutes in peak periods",
+      "fareEstimateLkr": 60,
+      "notes": "Reliable connector for travellers heading from Fort into Colombo 7."
+    },
+    {
+      "routeNo": "177",
+      "name": "Pettah to Kollupitiya / Borella corridor",
+      "majorStops": [
+        "Pettah",
+        "Fort",
+        "Slave Island",
+        "Town Hall",
+        "Borella"
+      ],
+      "frequency": "Every 10 to 15 minutes",
+      "fareEstimateLkr": 55,
+      "notes": "Alternative if Route 138 is crowded; still useful for central Colombo access."
+    },
+    {
+      "routeNo": "154",
+      "name": "Kiribathgoda to Angulana via Colombo city",
+      "majorStops": [
+        "Kiribathgoda",
+        "Kelaniya",
+        "Pettah",
+        "Town Hall",
+        "Colombo 7",
+        "Wellawatte",
+        "Angulana"
+      ],
+      "frequency": "Every 12 to 18 minutes",
+      "fareEstimateLkr": 65,
+      "notes": "Useful for onward travel if the commuter reaches Pettah from another mode."
+    }
+  ],
+  "stationGuidance": [
+    {
+      "location": "Colombo Fort",
+      "transfer": "Walk about 6 minutes from the railway station to the Pettah / Fort bus stand for Route 138 or 177 toward Town Hall and Colombo 7.",
+      "walkingMinutes": 6
+    },
+    {
+      "location": "Maradana",
+      "transfer": "Take a short tuk-tuk or local bus toward Borella or Town Hall if you arrive at Maradana and need Colombo 7.",
+      "walkingMinutes": 4
+    }
+  ],
+  "travelTips": [
+    "For the cheapest trip from Veyangoda to Colombo 7, use a train into Colombo and connect by bus instead of taking a full-distance taxi.",
+    "If a train is delayed, the next-lowest-cost fallback is a bus transfer from the nearest major station rather than starting the entire trip by three-wheeler.",
+    "Safety incidents, derailments, or blocked accessibility features should always be escalated immediately and not treated as standard route inquiries."
+  ]
+}
+
